@@ -9,7 +9,8 @@ console.log("n +1 is ",count);
 console.log("loop has ended");
 
 let i =1;
- while(i<=5){
+
+while(i<=5){
     console.log("Hello World");
     i++;
  }
@@ -36,38 +37,50 @@ let j = 0;
 
   //Q1
    let a = 0;
-for (a=0 ;a<=100 ; a++ ){
+
+   for (a=0 ;a<=100 ; a++ ){
         console.log("number is", a);
 } 
 
 // Q2 Odd 
  let a=0;
-for(a=0 ; a<=100 ; a++){
+
+ for(a=0 ; a<=100 ; a++){
     if(a%2!=0){
         console.log(a);
     }
 } 
 
  let GameNum = 25;
-let guessNum= prompt("Enter your guess");
+
+ let guessNum= prompt("Enter your guess");
+
 while(guessNum != GameNum) {
     guessNum = prompt("You guessed wrong enter you guess again")
 }
  console.log("Congrats you guessed correctly");
-alert("Congrats you guessed correctly");
+
+ alert("Congrats you guessed correctly");
 
  let str = "Kingslayer";
-console.log(str[5]);
+
+ console.log(str[5]);
+
 let obj = {
     item:"pen",
     price: 25,
 };
+
 let output= `The price of ${obj.item} is ${obj.price} rupees`;
+
 console.log(output);
 //Template Literals 
 let specialString =`This is a template literal \n${1+2+3}` ;
+
 let specialstring =`This is a template literal \t${1+2+3}` ;
+
 console.log(specialString);
+
 console.log(specialstring.length); 
 
  let str1 = "Apnacollege";
