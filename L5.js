@@ -70,14 +70,39 @@ function sum(x , y ){
 
  let nums = [1 , 2 ,3 ,4, 5 ,6 ,7];
  nums.forEach((num) =>{
-    console.log(num*num);
-
- });
+     console.log(num*num);
+     
+    });
 
  let newArr = nums.map((num) =>{
      return num*num ;
     });
     console.log(newArr);
- let newArr2 = nums.filter((val)=>{
+ let evenArr2 = nums.filter((val)=>{
     return val % 2 === 0;
  })
+
+ 
+ let nums2 = [1 , 2 ,3 ,4, 5 ,6 ,7];
+ const output = nums2.reduce((res , curr ) => {
+    return res>curr ? res : curr ;
+ });
+console.log(output);
+
+let n = prompt("Enter a number : ");
+let arr = [];
+for (let i=1; i<=n ; i++){
+    arr[i-1] = i ;
+}
+console,log(arr);
+
+const sum = arr.reduce((res , curr)=>{
+    return res+curr ;
+}) 
+console.log(sum);
+
+
+const factorial = arr.reduce((res , curr)=>{
+    return res*curr ;
+}) 
+console.log(factorial);

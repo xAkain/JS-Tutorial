@@ -1,0 +1,11 @@
+*{
+    background-color: purple;
+}
+.Box{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    margin: 5px;
+    text-align: center;
+    border: 1px solid black;
+}
