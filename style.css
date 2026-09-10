@@ -1,7 +1,7 @@
-*{
+/* *{
     background-color: purple;
 }
-#Box{
+#box{
     height: 100px;
     width: 100px;
     background-color: aqua;
@@ -9,6 +9,13 @@
     text-align: center;
     border: 1px solid black;
 }
-#p{
-    color: red;
+ */
+
+.dark{
+    background-color: black;
+    color: white;
+}
+.light{
+    background-color: white;
+    color: black;
 }
